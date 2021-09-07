@@ -36,6 +36,7 @@ class MembersController < ApplicationController
   # DELETE /members/1
   def destroy
     @member.destroy
+    render json: @member
   end
 
   private
@@ -46,6 +47,6 @@ class MembersController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def member_params
-      params.require(:member).permit(:first_name, :last_name, :age, :member)
+      params.require(:member).permit(:first_name, :last_name, :age, :member, :relationship)
     end
 end
