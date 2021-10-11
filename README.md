@@ -1,24 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the back-end for familiy tree the front end can be found at https://github.com/Icvza/familiy_tree_client_side
 
-Things you may want to cover:
+Fork and clone this repo 
 
-* Ruby version
+Run commands :
 
-* System dependencies
+rails db migrate 
+rails s 
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
