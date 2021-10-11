@@ -6,6 +6,6 @@ Fork and clone this repo
 
 Run commands :
 
-rails db migrate 
-rails s 
+## rails db migrate 
+## rails s 
 
